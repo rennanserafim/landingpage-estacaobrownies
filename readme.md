@@ -4,7 +4,8 @@
 Projeto criado com base em um curso que fiz na UDEMY, onde foi utilizado HTML, CSS(Font Awesome para ícones) e Javascript.
 ,É uma landing page que fiz para empresa da minha esposa. Apresentando um pouco a empresa é uma doceria especializada em brownies, que trabalha com delivery e venda no atacado para revendedores.
 
-    Link Netlify: https://estacaobrownies.netlify.app/
+Link netlify:
+[https://estacaobrownies.netlify.app/](url)
 
 # Divisão do projeto
 
