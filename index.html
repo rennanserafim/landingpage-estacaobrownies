@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estação Brownies - Sua estação mais doce!</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <!-- Nav bar -->
+    <!-- navbutton -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <nav class="navbar" id="navbar">
+
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items">
+        <li><a href="#" class="nav-link" id="nav-link1" >Home</a></li>
+        <li><a href="#about" class="nav-link" id="nav-link2" >Sobre mim!</a></li>
+        <li><a href="#products" class="nav-link" id="nav-link3">Delivery</a></li>
+        <li><a href="#reseller" class="nav-link" id="nav-link4">Revenda</a></li>
+      </ul>
+    </nav>
+
+
+    <header class="header">
+        <div class="banner">
+
+            <img  class="logoimg" src="./img/logo.png" alt="">
+            <div>
+        <a href="#products" class="main-btn pedirdelivery">Pedir delivery!</a>
+        <a href="#reseller" class="main-btn revendaestacao">Revendas</a>
+      </div>
+        </div>
+    </header>
+    
+    <div class="content-divider"></div>
+    
+    <!-- about-->
+    <section class="about" id="about">
+        <div class="section-center clearfix">
+            <article class="about-img">
+                <div class="about-picture-container">
+                    <img src="./img/about.jpg" alt="brownies" class="about-picture">
+                </div>
+            </article>
+            <article class="about-info">
+                <!-- section title -->
+                <div>
+                    <h3 class="section-subtitle">Prazer,</h3>
+                    <h2 class="section-title">Thallya Gonçalves</h2>    
+                </div>
+                <!-- section title -->
+                <p class="about-text">
+                   Trabalhei registrada, já fiz alguns bicos, enfim sempre me virava como pude, aos 19 comecei vendendo doces no centro de Santos, mas não sabia administrar o dinheiro que ganhei, aos 21, descobri meu amor por brownie, com isso tentei novamente, vender os doces, vendia na rua e por encomenda, depois de ter uma clientela, me joguei no delivery, e a empresa foi crescendo e criando forma, desde então dedico minha vida a Estação e sou grata tudo que ela tem me proporcionado.</p>
+                <a href="#" class="main-btn">Saiba mais</a>
+            </article>
+        </div>
+    </section>
+    <!-- end of about -->
+    <!-- products -->
+    <section class="products" id="products">
+        <div class="section-center clearfix">
+        <!-- products info -->
+        <article class="products-info">
+            <!-- title -->
+            <div>
+                <h3 class="section-subtitle">Conheça nosso</h3>
+                <h2 class="section-title text-white">delivery</h2>
+            </div>
+            <!-- end of title -->
+            <p class="product-text">
+            Está afim de um docinho a tarde, nos acesse nosso delivery e faça seu pedido, funcionamos de segunda a sábado das 13:00 às 18:00. Caso esteja fechado pode deixar seu pedido agendado.  </p>
+            <a href="https://app.cardapioweb.com/estacao_brownies" class="main-btn cardapiobtn">Acesse nosso cardápio</a>
+        </article>
+        <!-- end of products info -->
+        <!-- products inventory -->
+        <article class="products-inventory clearfix">
+            <!-- single product -->
+            <div class="product">
+                <img src="./img/browniecobertura.jpg" alt="single product" class="product-img">
+                <h3 class="product-title">Brownie com cobertura</h3>
+                <h3 class="product-price">R$8,00</h3>
+            </div>
+            <!-- end of single product -->
+            <!-- single product -->
+            <div class="product">
+                <img src="./img/minicopo.png" alt="single product" class="product-img">
+                <h3 class="product-title">Mini Copo</h3>
+                <h3 class="product-price">R$17,00</h3>
+            </div>
+            <!-- end of single product -->
+            <!-- single product -->
+            <div class="product">
+                <img src="./img/minibrownies.png" alt="single product" class="product-img">
+                <h3 class="product-title">Mini Brownies</h3>
+                <h3 class="product-price">R$85,00</h3>
+            </div>
+            <!-- end of single product -->
+        </article>
+        <!-- end of products inventory -->
+    </div>
+    </section>
+    <!-- end of products -->
+<!-- services -->
+<section class="services" >
+    <!-- section title -->
+    <div class="section-title services-title">
+      <h3>Conheça os</h3>
+      <h2>nossos serviços</h2>
+    </div>
+    <!-- end of section title -->
+    <div class="section-center clearfix">
+      <!-- single card -->
+      <article class="service-card">
+        <!-- img container -->
+        <div class="service-img-container">
+          <!-- img -->
+          <img
+            src="./img/brindes.jpg"
+            class="service-img"
+            alt="single service"
+          />
+          <!-- service icon -->
+          <span class="service-icon">
+            <i class="fa-solid fa-bullhorn"></i>
+          </span>
+        </div>
+        <!-- service info -->
+        <div class="service-info">
+          <h4>Brindes</h4>
+          <p>
+            Brindes institucionais, todo o produto é pensado conforme a sua campanha de marketing dentro ou fora da empresa.
+          </p>
+
+        </div>
+      </article>
+      <!--end of  single card -->
+      <!-- single card -->
+      <article class="service-card">
+        <!-- img container -->
+        <div class="service-img-container">
+          <!-- img -->
+          <img
+            src="./img/casamentos.jpg"
+            class="service-img"
+            alt="single service"
+          />
+          <!-- service icon -->
+          <span class="service-icon">
+            <i class="fa-solid fa-heart"></i>
+          </span>
+        </div>
+        <!-- service info -->
+        <div class="service-info">
+          <h4>casamentos</h4>
+          <p>
+            Ideal para surpreender os seus convidados, seja em formato de mini brownies ou lembrancinhas!
+          </p>
+
+        </div>
+      </article>
+      <!--end of  single card -->
+      <!-- single card -->
+      <article class="service-card">
+        <!-- img container -->
+        <div class="service-img-container">
+          <!-- img -->
+          <img
+            src="./img/revenda.jpg"
+            class="service-img"
+            alt="single service"
+          />
+          <!-- service icon -->
+          <span class="service-icon">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+          </span>
+        </div>
+        <!-- service info -->
+        <div class="service-info">
+          <h4>revenda</h4>
+          <p>
+            Precisa aumentar o ticket médio do seu estabelecimento? Nossos brownies podemn te ajudar nisso.
+          </p>
+
+        </div>
+      </article>
+
+
+      <!--end of  single card -->
+ 
+    </div>
+    
+  </section>
+  <!-- end of services -->
+<!-- services -->
+<section class="services" id="reseller">
+    <!-- section title -->
+    <div class="section-title reseller-title">
+      <h3>Porque ser um revendedor</h3>
+      <h2>Estação brownies?</h2>
+    </div>
+  
+    
+  
+
+  <!-- end of services -->
+
+  <!-- skills section-->
+  
+  <section class="skills clearfix">
+
+
+    <!-- single skill -->
+    <article class="skill" >
+        <span class="skill-icon">
+            <i class="fa-solid fa-copyright"></i>
+        </span>
+        <h3 class="skill-title">Marca consolidada</h3>
+        <!-- 10 words -->
+        <p class="skill-text">5 anos de existencia e mais de 15mil clientes em toda baixada santista.</p>
+        
+    </article>
+        <!-- end of single skill -->
+    <!-- single skill -->
+    <article class="skill">
+        <span class="skill-icon">
+            <i class="fa-solid fa-sack-dollar"></i>
+        </span>
+        <h3 class="skill-title">Custo baixo, Lucro alto</h3>
+        <!-- 10 words -->
+        <p class="skill-text">Nossos produtos tem o custo baixo, com isso você pode ter uma margem de lucro maior.</p>
+        <!-- end of single skill -->
+        
+    </article>
+    <!-- single skill -->
+    <article class="skill">
+        <span class="skill-icon">
+            <i class="fa-solid fa-store"></i>
+        </span>
+        <h3 class="skill-title">Facil armazenamento</h3>
+        <!-- 10 words -->
+        <p class="skill-text">Não ocupa espaço na geladeira e não precisa de cuidado especial</p>
+        <!-- end of single skill -->
+        
+    </article>
+    <!-- single skill -->
+    <article class="skill">
+        <span class="skill-icon">
+            <i class="fa-solid fa-handshake-simple"></i>
+        </span>
+        <h3 class="skill-title">Consignação</h3>
+        <!-- 10 words -->
+        <p class="skill-text">Para você que ainda tem dúvidas, faça um teste consignado conosco.</p>
+        <!-- end of single skill -->
+
+    </article>
+</section>
+</section>
+<div class="btncardapio">
+    <a href="#" class="btn-reseller">Fale com nosso representante</a>
+  </div>
+<!-- end skills -->
+    <!-- contact -->
+    <section class="contact">
+        <div class="section-center clearfix">
+            <!-- contact info-->
+            <article class="contact-info">
+                <!-- contact item -->
+                <div class="contact-item">
+                    <!-- contact text -->
+                    <h3 class="contact-title">
+                        <span class="contact-icon">
+                            <i class="fas fa-location-arrow"></i>
+                        </span>
+                    </h3>
+                    <h3 class="contact-text">
+                        Gaspar Ricardo 18, Catiapoã, São Vicente - SP
+                    </h3>
+                </div>
+                <!-- end contact item -->
+                  <!-- contact item -->
+                  <div class="contact-item">
+                    <!-- contact text -->
+                    <h3 class="contact-title">
+                        <span class="contact-icon">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </span>
+                    </h3>
+                    <h3 class="contact-text">
+                        <a class="whatsapplink" href="https://api.whatsapp.com/send?phone=5513996440921">+(13)996440921</a>
+                    </h3>
+                </div>
+                <!-- end contact item -->
+                  <!-- contact item -->
+                  <div class="contact-item">
+                    <!-- contact text -->
+                    <h3 class="contact-title">
+                        <span class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                    </h3>
+                    <h3 class="contact-text">
+                        estacaobrowniessv@gmail.com.br
+                    </h3>
+                </div>
+                <!-- end contact item -->
+            </article>
+            <article class="contact-form">
+
+
+                <form  action="https://formspree.io/f/xknejgnz"
+                method="POST">
+              
+                    <input type="text" name="name" placeholder="Nome" class="form-control">
+               
+                    <input type="e-mail" name="e-mail" placeholder="E-mail" class="form-control">
+                   
+                    <textarea
+                    name="message"
+                    placeholder="Mensagem..."
+                    class="form-control"
+                    rows="5"
+                  ></textarea>
+           
+                  <button class="main-btn">Enviar</button>
+                </form>
+
+          
+            </article>
+            <!-- end of contact info -->
+        </div>
+    </section>
+    <!-- end o fcontact -->
+    <footer class="footer">
+        <div class="section-center">
+            <div class="social-icons">
+                <!-- social icon -->
+                <a href="https://www.facebook.com/estacaobrownies" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <!-- end of social icon -->
+
+                <!-- social icon -->
+                <a href="https://www.instagram.com/estacaobrownies/" class="social-icon">
+                    <i class="fab fa-instagram "></i>
+                  </a>
+                <!-- end of social icon -->
+
+                
+                <p class="footer-text">
+                    &copy;<span id="date"></span> <span class="text-primary">estação brownies</span><br>all rights reserved
+                </p>
+
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>
